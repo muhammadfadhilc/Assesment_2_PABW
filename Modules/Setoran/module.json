@@ -1,0 +1,1 @@
+{"name":"Setoran","alias":"setoran","priority":1,"providers":["Modules\\Setoran\\Providers\\SetoranServiceProvider"],"files":[]}

@@ -1,0 +1,31 @@
+<?php
+return [
+    'required' => ':attribute wajib diisi.',
+    'string' => ':attribute harus berupa teks.',
+    'email' => ':attribute harus berupa alamat email yang valid.',
+    'unique' => ':attribute sudah digunakan.',
+    'numeric' => ':attribute harus berupa angka.',
+    'integer' => ':attribute harus berupa bilangan bulat.',
+    'exists' => ':attribute tidak terdaftar.',
+    'in' => ':attribute yang dipilih tidak valid.',
+    'confirmed' => 'Konfirmasi :attribute tidak sama.',
+    'date_format' => ':attribute harus berupa tanggal yang valid dengan format :format.',
+    'decimal' => ':attribute maksimal memiliki dua angka desimal.',
+    'image' => ':attribute harus berupa gambar.',
+    'mimes' => ':attribute harus berformat :values.',
+    'extensions' => ':attribute harus memiliki ekstensi :values.',
+    'current_password' => 'Password tidak sesuai.',
+    'gt' => ['numeric' => ':attribute harus lebih dari :value.'],
+    'max' => [
+        'numeric' => ':attribute maksimal :max.',
+        'string' => ':attribute maksimal :max karakter.',
+        'file' => ':attribute maksimal :max KB.',
+    ],
+    'min' => ['string' => ':attribute minimal :min karakter.'],
+    'attributes' => [
+        'kode_jenis' => 'Kode jenis', 'nama_jenis' => 'Nama jenis', 'kategori' => 'Kategori',
+        'harga_per_kg' => 'Harga per kg', 'deskripsi' => 'Deskripsi', 'jenis_sampah_id' => 'Jenis sampah',
+        'berat_kg' => 'Berat', 'tanggal_setor' => 'Tanggal setor', 'catatan' => 'Catatan',
+        'foto_bukti' => 'Foto bukti', 'status' => 'Status', 'name' => 'Nama', 'email' => 'Email', 'password' => 'Password',
+    ],
+];
